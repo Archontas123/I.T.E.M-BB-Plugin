@@ -1,0 +1,27 @@
+name: Automated GitHub Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code 🛎️
+        uses: actions/checkout@v4
+
+      - name: Create Release and Upload Asset 🚀
+        uses: softprops/action-gh-release@v2
+        with:
+          files: item.js
+          name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
