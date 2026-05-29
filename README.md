@@ -9,7 +9,6 @@
     <a href="https://github.com/Archontas123/I.T.E.M-BB-Plugin/issues"><img src="https://img.shields.io/github/issues/Archontas123/I.T.E.M-BB-Plugin?style=flat-square" alt="Issues"></a>
     <img src="https://img.shields.io/github/last-commit/Archontas123/I.T.E.M-BB-Plugin?style=flat-square" alt="Last Commit">
   </p>
-  <blockquote><strong>Stable:</strong> This plugin is verified and ready for production workflows. Report any bugs or feature requests below.</blockquote>
 </div>
 
 ## Install
