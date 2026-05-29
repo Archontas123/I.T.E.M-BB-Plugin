@@ -482,7 +482,7 @@
 		author: 'Archontas',
 		icon: 'gradient',
 		description: 'Iterative Texture Evolution Macro — generate progressive texture variations as duplicate textures or an animated spritesheet.',
-		version: '1.0.0',
+		version: '0.2.0',
 		min_version: '4.9.0',
 		variant: 'both',
 		await_loading: true,
